@@ -183,8 +183,9 @@ def change_zip(zip, driver):
 
 	except:	
 		try:
-			change_zip = driver.find_element_by_xpath('//i[@class="ic-icon ic-icon-location-marker"]'
-							'//a[@href]')
+			driver.find_element_by_xpath('.//a[@class="Topbar-logo"]').click()
+			time.sleep(1)
+			change_zip = driver.find_element_by_xpath('.//a[@aria-label="change zipcode"]')
 			change_zip.click()
 			pick_up = False
 			
@@ -210,17 +211,22 @@ def change_zip(zip, driver):
 					change_zip = driver.find_element_by_xpath('//i[@class="ic-icon ic-icon-location-marker"]')
 					change_zip.click()
 				except:
-					choose_store = driver.find_element_by_xpath('//i[@class="ic-icon ic-icon-x-bold icModalClose"]')
-					choose_store.click()
-					pick_up = True
-					print("pickup")
+					try:
+						choose_store = driver.find_element_by_xpath('.//img[@alt="Instacart Demo"]')	
+						choose_store.click()
+						change_zip = driver.find_element_by_xpath('.//button[@type="submit"]')
+						change_zip.click()
+						pick_up = False
+					except:
+						pick_up = True
+						print("pickup")
 					
 	if pick_up == False:
 		enter_zip = driver.find_element_by_xpath('//input[@pattern="[0-9]*"]')
 		enter_zip.send_keys(zip)
 		
-		submit = driver.find_element_by_xpath('//button[@class="ic-btn ic-btn-primary '
-							'ic-btn-block"]')
+		submit = driver.find_element_by_xpath('//button[contains(@class,"ic-btn ic-btn-primary '
+							'ic-btn-block")]')
 		submit.click()
 		
 		try:
@@ -372,7 +378,6 @@ def get_aisle(driver, category):
 		return False
 		
 	except:
-		x=0
 		# try:
 			# WebDriverWait(driver, delay).until(
 					# EC.presence_of_element_located(
@@ -401,42 +406,42 @@ def get_aisle(driver, category):
 		# ))
 		
 		
-		text = driver.find_element_by_xpath('html[@lang="en"]').text
-		text = text.encode('utf-8').strip()
+		# text = driver.find_element_by_xpath('html[@lang="en"]').text
+		# text = text.encode('utf-8').strip()
 		
 		try:
 			
 			if category == 'juice':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Juice & Nectars")]')
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Juice & Nectars")]')
 
 			if category == 'bread':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Bread")]')
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Bread")]')
 				
 			if category == 'bottled water':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Water, Seltzer & Sparkling Water")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Water, Seltzer & Sparkling Water")]')	
 			
 			if category == 'milk':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Milk")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Milk")]')	
 			
 			if category == 'pasta':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Dry Pasta")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Dry Pasta")]')	
 				
 			if category == 'cereal':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Cereal")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Cereal")]')	
 				
 			if category == 'soft drinks':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Soft Drinks")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Soft Drinks")]')	
 			
 			if category == 'tea':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Tea")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Tea")]')	
 			
 			if category == 'sports and energy drinks':
-				aisle = driver.find_element_by_xpath('.//a[contains(text(), "Energy & Sports Drinks")]')	
+				aisle = driver.find_element_by_xpath('.//div[@class="inline"]//span[contains(text(), "Energy & Sports Drinks")]')	
 			
-			# try:			
-			aisle.click()
-			# except:
-				# dropdown.click()
+			try:			
+				aisle.click()
+			except:
+				dropdown.click()
 			
 			time.sleep(1)	
 			
@@ -446,7 +451,7 @@ def get_aisle(driver, category):
 			
 		except:
 			
-			return False
+			return True
 			
 def get_stores(driver):
 	
@@ -476,7 +481,7 @@ def get_stores(driver):
 			(By.CLASS_NAME, "retailer-chooser-header")
 			))
 			
-	stores = driver.find_elements_by_xpath('.//h3[@class="ic-text-truncate"]')
+	stores = driver.find_elements_by_xpath('.//div[@class="retailer-option-body"]')
 	
 	print("number of stores: %s" %len(stores))
 	
@@ -504,12 +509,12 @@ def click_on_store(driver, i):
 		))
 	time.sleep(random.randint(0,3))
 	try:	
-		store = driver.find_elements_by_class_name('ic-text-truncate')[i]
+		store = driver.find_elements_by_xpath('.//div[@class="retailer-option-body"]')[i]
 	except:
 		# try:
 		time.sleep(5)
 		print(len(driver.find_elements_by_class_name('ic-text-truncate')))
-		store = driver.find_elements_by_class_name('ic-text-truncate')[i]
+		store =driver.find_elements_by_xpath('.//div[@class="retailer-option-body"]')[i]
 
 		# except:
 			# reset = True
@@ -694,7 +699,224 @@ def get_no_data(driver, file, category):
 	text = driver.find_element_by_xpath('html[@lang="en"]').text
 	text = text.encode('utf-8').strip()
 	file.write(text)
+		
+def body(area, scrape_name, email_address, password_text, list_of_zips, list_of_categories, done_zips_name, done_list_name, insta):
+	main_start_time = time.time()
+
+	df = pd.read_csv(list_of_zips)
+	zips = df['zip'].tolist()
+	
+	df = pd.read_csv(list_of_categories)
+	categories = df['category'].tolist()
+	
+	done_list, done_zips = get_done_lists(done_list_name, done_zips_name)
+	
+	print("Number zips done: %s" %len(done_zips))
+	
+	driver = get_to_search_page(email_address, password_text)
+	
+	for zip in zips: ## loop through all zips
+		
+		zip = int(zip)
+		print(zip)
+		if zip in done_zips:
+			print("already done with this zip:%s" %zip)
+			continue
+			
+		time.sleep(2)	
+		
+		zip_start_time = time.time()
+		zip = count_letters(str(zip))
+		
+		
+		## set zipcode 
+		print("changing zip")
+		error, pick_up = change_zip(zip, driver)
+		
+		try:
+			bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
+		except:
+			x=0
+			# print("no bad weather")
+				
+		x = random.randint(1,3)
+		time.sleep(x)
+		
+		try:
+			demo = driver.find_element_by_link_text('Instacart Demo')
+			demo = True
+			print("demo = true")
+		except:
+			demo = False
+		
+		if (error == True) | (demo == True):
+			print("not available in this zip")
+			done_file = open(done_zips_name, 'a')
+			done_file.write(zip + "," + "no service" + "\n")
+			done_file.close()
+			
+		else:
+			for category in categories: ## loop through all categories
+				cat_start_time = time.time()
+				x = random.randint(1,60)
+				if x == 30:
+					print("pausing")
+					time.sleep(7)
+				time.sleep(random.randint(0,3))
+				print("searching for category %s" %category)
+				
+				## search for category
+				demo = search_for_cat(category, driver)		
+				
+				try:
+					bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
+				except:
+					x=0				
 					
+				try:
+					demo = driver.find_element_by_link_text('Instacart Demo')
+					demo = True
+				except:
+					demo = False
+					
+				if demo == True:
+					print("not available in this zip")
+					done_file = open(done_zips_name, 'a')
+					done_file.write(zip + "," + "no service" + "\n")
+					done_file.close()
+					break
+				else:	
+					## get list stores
+					num_stores = get_stores(driver)
+					
+					i=0
+					while i in range(0,num_stores): ## loop through all stores
+
+						id = zip + "_" + category + "_" + str(i)
+						print(id)
+										
+						if id in done_list:
+							print("already got this store's info")
+							i+=1
+							continue
+							
+						print("store #: %s" %(i+1))
+						try:
+							bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
+						except:
+							x=0
+						reset, skip = click_on_store(driver, i)
+						print("clicked on store")
+						try:
+							oops = driver.find_element_by_link_text('Oops')
+							oops = True
+						except:
+							oops = False
+						
+						if oops == True:
+							continue
+								
+						# if reset == True:
+							# error, pick_up = change_zip(zip, driver)
+						
+						# if skip == True:
+							# i+=1
+							# continue
+						
+						demo = search_for_cat(category, driver)	
+							
+						file = prep_file(zip, category, id, insta)
+										
+						try: ## see if pages exist
+							WebDriverWait(driver, 5).until(
+								EC.presence_of_element_located(
+								(By.CLASS_NAME, 'pagination-info')
+								))
+							pages = driver.find_element_by_class_name('pagination-info').text
+							pages_exist = True
+							more_results = False
+						except: 
+							try:
+								all_results = driver.find_element_by_xpath('//a[@class="'
+										'ic-btn ic-btn-sm ic-btn-secondary"]')
+								more_results = True
+								print("more results")
+								pages_exist = False
+								more_results = True
+							except:
+								pages_exist = False
+								more_results = False
+						
+						print("pages exit: %s" %pages_exist)
+						print("more results: %s" %more_results)
+						if  (pages_exist) | (more_results): ## print info from store that sells category
+							print("going to get aisle")
+							################	
+							bad_store = get_aisle(driver, category)
+							if (bad_store == False) & (pages_exist == True):
+								print("getting data")
+								get_data(file, driver, category, zip)
+							elif (bad_store == False) & (more_results == True):
+								print("getting more results data")
+								get_more_results_data(driver, file)
+								
+						
+						else: ## saves store name if doesn't have soda items
+							get_no_data(driver, file, category)
+							
+						## go back to page with all stores
+						try:
+							store_link	= driver.find_element_by_xpath('//a[@class="primary-nav-link"]')
+							store_link.click()
+													
+							WebDriverWait(driver, delay).until(
+								EC.presence_of_element_located(
+								(By.CLASS_NAME, "retailer-chooser-header")
+								))
+						except:
+							try:
+								not_available = driver.find_element_by_xpath('//div[@class="icModalContent'
+													' errorModal"]')
+								
+								driver.execute_script("window.history.go(-1)")
+								
+								store_link	= driver.find_element_by_xpath('//a[@class="primary-nav-link"]')
+								store_link.click()
+														
+								WebDriverWait(driver, delay).until(
+									EC.presence_of_element_located(
+									(By.CLASS_NAME, "retailer-chooser-header")
+									))
+							except:
+								no_retailer = driver.find_element_by_xpath('//i[@class="ic-icon ic-icon-x-bold icModalClose"]')
+								no_retailer.click()
+						
+						file.close()	
+						
+						done_list.append(id)
+						done_file = open(done_list_name, 'a')
+						
+						if pick_up == False:
+							done_file.write(id + "\n")
+						elif pick_up == True:
+							done_file.write(id + "," + "pickup" + "\n")
+						
+						done_file.close()
+						
+						i+=1
+				
+			print("run time for this category: %s" %(time.time() - cat_start_time))
+		done_zips_file = open(done_zips_name, 'a')
+		done_zips_file.write(zip + "\n")
+
+		print("run time for this zip: %s" %(time.time() - zip_start_time))
+		
+	print("run time for all : %s" %(time.time() - main_start_time))	
+	
+	driver.close()
+	
+	print("Woot woot! All done!")
+	
 def main(area, scrape_name, email_address, password_text):
 
 	print(area, scrape_name, email_address, password_text)
@@ -718,221 +940,8 @@ def main(area, scrape_name, email_address, password_text):
 	print(list_of_zips)
 		
 	try:
-		main_start_time = time.time()
-
-		df = pd.read_csv(list_of_zips)
-		zips = df['zip'].tolist()
+		body(area, scrape_name, email_address, password_text, list_of_zips, list_of_categories, done_zips_name, done_list_name, insta)
 		
-		df = pd.read_csv(list_of_categories)
-		categories = df['category'].tolist()
-		
-		done_list, done_zips = get_done_lists(done_list_name, done_zips_name)
-		
-		print("Number zips done: %s" %len(done_zips))
-		
-		driver = get_to_search_page(email_address, password_text)
-		
-		for zip in zips: ## loop through all zips
-			
-			zip = int(zip)
-			print(zip)
-			if zip in done_zips:
-				print("already done with this zip:%s" %zip)
-				continue
-				
-			time.sleep(2)	
-			
-			zip_start_time = time.time()
-			zip = count_letters(str(zip))
-			
-			
-			## set zipcode 
-			print("changing zip")
-			error, pick_up = change_zip(zip, driver)
-			
-			try:
-				bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
-			except:
-				x=0
-				# print("no bad weather")
-					
-			x = random.randint(1,3)
-			time.sleep(x)
-			
-			try:
-				demo = driver.find_element_by_link_text('Instacart Demo')
-				demo = True
-				print("demo = true")
-			except:
-				demo = False
-			
-			if (error == True) | (demo == True):
-				print("not available in this zip")
-				done_file = open(done_zips_name, 'a')
-				done_file.write(zip + "," + "no service" + "\n")
-				done_file.close()
-				
-			else:
-				for category in categories: ## loop through all categories
-					cat_start_time = time.time()
-					x = random.randint(1,60)
-					if x == 30:
-						print("pausing")
-						time.sleep(7)
-					time.sleep(random.randint(0,3))
-					print("searching for category %s" %category)
-					
-					## search for category
-					demo = search_for_cat(category, driver)		
-					
-					try:
-						bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
-					except:
-						x=0				
-						
-					try:
-						demo = driver.find_element_by_link_text('Instacart Demo')
-						demo = True
-					except:
-						demo = False
-						
-					if demo == True:
-						print("not available in this zip")
-						done_file = open(done_zips_name, 'a')
-						done_file.write(zip + "," + "no service" + "\n")
-						done_file.close()
-						break
-					else:	
-						## get list stores
-						num_stores = get_stores(driver)
-						
-						i=0
-						while i in range(0,num_stores): ## loop through all stores
-
-							id = zip + "_" + category + "_" + str(i)
-							print(id)
-											
-							if id in done_list:
-								print("already got this store's info")
-								i+=1
-								continue
-								
-							print("store #: %s" %(i+1))
-							try:
-								bad_weather_notice = driver.find_element_by_class_name('toast-dismiss').click()
-							except:
-								x=0
-							reset, skip = click_on_store(driver, i)
-							print("clicked on store")
-							try:
-								oops = driver.find_element_by_link_text('Oops')
-								oops = True
-							except:
-								oops = False
-							
-							if oops == True:
-								continue
-									
-							# if reset == True:
-								# error, pick_up = change_zip(zip, driver)
-							
-							# if skip == True:
-								# i+=1
-								# continue
-							
-							demo = search_for_cat(category, driver)	
-								
-							file = prep_file(zip, category, id, insta)
-											
-							try: ## see if pages exist
-								WebDriverWait(driver, 5).until(
-									EC.presence_of_element_located(
-									(By.CLASS_NAME, 'pagination-info')
-									))
-								pages = driver.find_element_by_class_name('pagination-info').text
-								pages_exist = True
-								more_results = False
-							except: 
-								try:
-									all_results = driver.find_element_by_xpath('//a[@class="'
-											'ic-btn ic-btn-sm ic-btn-secondary"]')
-									more_results = True
-									print("more results")
-									pages_exist = False
-									more_results = True
-								except:
-									pages_exist = False
-									more_results = False
-							
-							print("pages exit: %s" %pages_exist)
-							print("more results: %s" %more_results)
-							if  (pages_exist) | (more_results): ## print info from store that sells category
-								print("going to get aisle")
-								################	
-								bad_store = get_aisle(driver, category)
-								if (bad_store == False) & (pages_exist == True):
-									print("getting data")
-									get_data(file, driver, category, zip)
-								elif (bad_store == False) & (more_results == True):
-									print("getting more results data")
-									get_more_results_data(driver, file)
-									
-							
-							else: ## saves store name if doesn't have soda items
-								get_no_data(driver, file, category)
-								
-							## go back to page with all stores
-							try:
-								store_link	= driver.find_element_by_xpath('//a[@class="primary-nav-link"]')
-								store_link.click()
-														
-								WebDriverWait(driver, delay).until(
-									EC.presence_of_element_located(
-									(By.CLASS_NAME, "retailer-chooser-header")
-									))
-							except:
-								try:
-									not_available = driver.find_element_by_xpath('//div[@class="icModalContent'
-														' errorModal"]')
-									
-									driver.execute_script("window.history.go(-1)")
-									
-									store_link	= driver.find_element_by_xpath('//a[@class="primary-nav-link"]')
-									store_link.click()
-															
-									WebDriverWait(driver, delay).until(
-										EC.presence_of_element_located(
-										(By.CLASS_NAME, "retailer-chooser-header")
-										))
-								except:
-									no_retailer = driver.find_element_by_xpath('//i[@class="ic-icon ic-icon-x-bold icModalClose"]')
-									no_retailer.click()
-							
-							file.close()	
-							
-							done_list.append(id)
-							done_file = open(done_list_name, 'a')
-							
-							if pick_up == False:
-								done_file.write(id + "\n")
-							elif pick_up == True:
-								done_file.write(id + "," + "pickup" + "\n")
-							
-							done_file.close()
-							
-							i+=1
-					
-				print("run time for this category: %s" %(time.time() - cat_start_time))
-			done_zips_file = open(done_zips_name, 'a')
-			done_zips_file.write(zip + "\n")
-
-			print("run time for this zip: %s" %(time.time() - zip_start_time))
-			
-		print("run time for all : %s" %(time.time() - main_start_time))	
-		
-		driver.close()
-		
-		print("Woot woot! All done!")
 		# send_email('done', 'na')
 		
 	

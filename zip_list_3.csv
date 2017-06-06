@@ -1,0 +1,976 @@
+zip,,,,,
+94002,,(Belmont),,sfc_oak_msa,0
+94005,,(Brisbane),,sfc_oak_msa,0
+94010,,(Burlingame),,sfc_oak_msa,0
+94014,,(Daly City),,sfc_oak_msa,0
+94015,,(Daly City),,sfc_oak_msa,0
+94019,,(Half Moon Bay),,sfc_oak_msa,0
+94020,,(La Honda),,sfc_oak_msa,0
+94021,,(Loma Mar),,sfc_oak_msa,0
+94025,,(Menlo Park),,sfc_oak_msa,0
+94027,,(Atherton),,sfc_oak_msa,0
+94028,,(Portola Valley),,sfc_oak_msa,0
+94030,,(Millbrae),,sfc_oak_msa,0
+94037,,(Montara),,sfc_oak_msa,0
+94038,,(Moss Beach),,sfc_oak_msa,0
+94044,,(Pacifica),,sfc_oak_msa,0
+94060,,(Pescadero),,sfc_oak_msa,0
+94061,,(Redwood City),,sfc_oak_msa,0
+94062,,(Redwood City),,sfc_oak_msa,0
+94063,,(Redwood City),,sfc_oak_msa,0
+94065,,(Redwood City),,sfc_oak_msa,0
+94066,,(San Bruno),,sfc_oak_msa,0
+94070,,(San Carlos),,sfc_oak_msa,0
+94074,,(San Gregorio),,sfc_oak_msa,0
+94080,,(South San Francisco),,sfc_oak_msa,0
+21241,,"Baltimore, MD",Baltimore City,baltimore,1
+21235,,"Baltimore, MD",Baltimore City,baltimore,1
+21239,,"Baltimore, MD",Anne Arundel,baltimore,1
+21252,,"Baltimore, MD",Baltimore City,baltimore,1
+21263,,"Baltimore, MD",Baltimore City,baltimore,1
+21250,,"Baltimore, MD",Baltimore City,baltimore,1
+21251,,"Baltimore, MD",Baltimore,baltimore,1
+21233,,"Baltimore, MD",Baltimore City,baltimore,1
+21223,,"Baltimore, MD",Baltimore,baltimore,1
+21224,,"Baltimore, MD",Baltimore City,baltimore,1
+21217,,"Baltimore, MD",Baltimore City,baltimore,1
+21218,,"Baltimore, MD",Baltimore City,baltimore,1
+21230,,"Baltimore, MD",Baltimore City,baltimore,1
+21231,,"Baltimore, MD",Baltimore City,baltimore,1
+21225,,"Baltimore, MD",Baltimore City,baltimore,1
+21229,,"Baltimore, MD",Baltimore City,baltimore,1
+21287,,"Baltimore, MD",Baltimore City,baltimore,1
+21288,,"Baltimore, MD",Baltimore City,baltimore,1
+21284,,"Baltimore, MD",Baltimore City,baltimore,1
+21285,,"Baltimore, MD",Baltimore City,baltimore,1
+21297,,"Baltimore, MD",Baltimore City,baltimore,1
+21298,,"Baltimore, MD",Baltimore,baltimore,1
+21289,,"Baltimore, MD",Baltimore,baltimore,1
+21290,,"Baltimore, MD",Baltimore City,baltimore,1
+21282,,"Baltimore, MD",Baltimore City,baltimore,1
+21273,,"Baltimore, MD",Baltimore City,baltimore,1
+21275,,"Baltimore, MD",Baltimore City,baltimore,1
+21264,,"Baltimore, MD",Baltimore,baltimore,1
+21270,,"Baltimore, MD",Baltimore City,baltimore,1
+21280,,"Baltimore, MD",Baltimore City,baltimore,1
+21281,,"Baltimore, MD",Baltimore City,baltimore,1
+21278,,"Baltimore, MD",Baltimore City,baltimore,1
+21279,,"Baltimore, MD",Baltimore City,baltimore,1
+21213,,"Baltimore, MD",Baltimore City,baltimore,1
+21212,,"Baltimore, MD",Baltimore City,baltimore,1
+21214,,"Baltimore, MD",Baltimore City,baltimore,1
+21216,,"Baltimore, MD",Baltimore City,baltimore,1
+21215,,"Baltimore, MD",Baltimore City,baltimore,1
+21211,,"Baltimore, MD",Baltimore City,baltimore,1
+21209,,"Baltimore, MD",Baltimore City,baltimore,1
+21210,,"Baltimore, MD",Baltimore City,baltimore,1
+21206,,"Baltimore, MD",Baltimore City,baltimore,1
+21203,,"Baltimore, MD",Baltimore City,baltimore,1
+21205,,"Baltimore, MD",Baltimore City,baltimore,1
+20701,,"Baltimore, MD",Baltimore City,baltimore,1
+20711,,"Baltimore, MD",Baltimore City,baltimore,1
+20723,,"Baltimore, MD",Baltimore City,baltimore,1
+20724,,(Annapolis Junction),,baltimore_msa,0
+20733,,(Lothian),,baltimore_msa,0
+20751,,(Laurel),,baltimore_msa,0
+20755,,(Laurel),,baltimore_msa,0
+20758,,(Churchton),,baltimore_msa,0
+20759,,(Deale),,baltimore_msa,0
+20763,,(Fort George G Meade),,baltimore_msa,0
+20764,,(Friendship),,baltimore_msa,0
+20765,,(Fulton),,baltimore_msa,0
+20776,,(Savage),,baltimore_msa,0
+20777,,(Shady Side),,baltimore_msa,0
+20778,,(Galesville),,baltimore_msa,0
+20779,,(Harwood),,baltimore_msa,0
+20794,,(Highland),,baltimore_msa,0
+21001,,(West River),,baltimore_msa,0
+21005,,(Tracys Landing),,baltimore_msa,0
+21009,,(Jessup),,baltimore_msa,0
+21010,,(Aberdeen),,baltimore_msa,0
+21012,,(Aberdeen Proving Ground),,baltimore_msa,0
+21013,,(Abingdon),,baltimore_msa,0
+21014,,(Gunpowder),,baltimore_msa,0
+21015,,(Arnold),,baltimore_msa,0
+21017,,(Baldwin),,baltimore_msa,0
+21028,,(Bel Air),,baltimore_msa,0
+21029,,(Bel Air),,baltimore_msa,0
+21030,,(Belcamp),,baltimore_msa,0
+21031,,(Churchville),,baltimore_msa,0
+21032,,(Clarksville),,baltimore_msa,0
+21034,,(Cockeysville),,baltimore_msa,0
+21035,,(Hunt Valley),,baltimore_msa,0
+21036,,(Crownsville),,baltimore_msa,0
+21037,,(Darlington),,baltimore_msa,0
+21040,,(Davidsonville),,baltimore_msa,0
+21042,,(Dayton),,baltimore_msa,0
+21043,,(Edgewater),,baltimore_msa,0
+21044,,(Edgewood),,baltimore_msa,0
+21045,,(Ellicott City),,baltimore_msa,0
+21046,,(Ellicott City),,baltimore_msa,0
+21047,,(Columbia),,baltimore_msa,0
+21048,,(Columbia),,baltimore_msa,0
+21050,,(Columbia),,baltimore_msa,0
+21051,,(Fallston),,baltimore_msa,0
+21052,,(Finksburg),,baltimore_msa,0
+21053,,(Forest Hill),,baltimore_msa,0
+21054,,(Fork),,baltimore_msa,0
+21056,,(Fort Howard),,baltimore_msa,0
+21057,,(Freeland),,baltimore_msa,0
+21060,,(Gambrills),,baltimore_msa,0
+21061,,(Gibson Island),,baltimore_msa,0
+21071,,(Glen Arm),,baltimore_msa,0
+21074,,(Glen Burnie),,baltimore_msa,0
+21075,,(Glen Burnie),,baltimore_msa,0
+21076,,(Glyndon),,baltimore_msa,0
+21077,,(Hampstead),,baltimore_msa,0
+21078,,(Elkridge),,baltimore_msa,0
+21082,,(Hanover),,baltimore_msa,0
+21084,,(Harmans),,baltimore_msa,0
+21085,,(Havre de Grace),,baltimore_msa,0
+21087,,(Hydes),,baltimore_msa,0
+21090,,(Jarrettsville),,baltimore_msa,0
+21093,,(Joppa),,baltimore_msa,0
+21102,,(Kingsville),,baltimore_msa,0
+21104,,(Linthicum Heights),,baltimore_msa,0
+21105,,(Lutherville Timonium),,baltimore_msa,0
+21108,,(Manchester),,baltimore_msa,0
+21111,,(Marriottsville),,baltimore_msa,0
+21113,,(Maryland Line),,baltimore_msa,0
+21114,,(Millersville),,baltimore_msa,0
+21117,,(Monkton),,baltimore_msa,0
+21120,,(Odenton),,baltimore_msa,0
+21122,,(Crofton),,baltimore_msa,0
+21128,,(Owings Mills),,baltimore_msa,0
+21130,,(Parkton),,baltimore_msa,0
+21131,,(Pasadena),,baltimore_msa,0
+21132,,(Perry Hall),,baltimore_msa,0
+21133,,(Perryman),,baltimore_msa,0
+21136,,(Phoenix),,baltimore_msa,0
+21140,,(Pylesville),,baltimore_msa,0
+21144,,(Randallstown),,baltimore_msa,0
+21146,,(Reisterstown),,baltimore_msa,0
+21152,,(Riva),,baltimore_msa,0
+21153,,(Severn),,baltimore_msa,0
+21154,,(Severna Park),,baltimore_msa,0
+21155,,(Sparks Glencoe),,baltimore_msa,0
+21156,,(Stevenson),,baltimore_msa,0
+21157,,(Street),,baltimore_msa,0
+21158,,(Upperco),,baltimore_msa,0
+21160,,(Upper Falls),,baltimore_msa,0
+21161,,(Westminster),,baltimore_msa,0
+21162,,(Westminster),,baltimore_msa,0
+21163,,(Whiteford),,baltimore_msa,0
+21204,,(White Hall),,baltimore_msa,0
+21207,,(White Marsh),,baltimore_msa,0
+21208,,(Woodstock),,baltimore_msa,0
+21219,,(Towson),,baltimore_msa,0
+21220,,(Gwynn Oak),,baltimore_msa,0
+21221,,(Pikesville),,baltimore_msa,0
+21222,,(Sparrows Point),,baltimore_msa,0
+21226,,(Middle River),,baltimore_msa,0
+21227,,(Essex),,baltimore_msa,0
+21228,,(Dundalk),,baltimore_msa,0
+21234,,(Brooklyn),,baltimore_msa,0
+21236,,(Curtis Bay),,baltimore_msa,0
+21237,,(Halethorpe),,baltimore_msa,0
+21244,,(Catonsville),,baltimore_msa,0
+21286,,(Parkville),,baltimore_msa,0
+21401,,(Nottingham),,baltimore_msa,0
+21402,,(Rosedale),,baltimore_msa,0
+21403,,(Windsor Mill),,baltimore_msa,0
+21405,,(Towson),,baltimore_msa,0
+21409,,(Towson),,baltimore_msa,0
+21607,,(Annapolis),,baltimore_msa,0
+21617,,(Annapolis),,baltimore_msa,0
+21619,,(Annapolis),,baltimore_msa,0
+21623,,(Annapolis),,baltimore_msa,0
+21628,,(Annapolis),,baltimore_msa,0
+21638,,(Barclay),,baltimore_msa,0
+21644,,(Centreville),,baltimore_msa,0
+21651,,(Chester),,baltimore_msa,0
+21657,,(Church Hill),,baltimore_msa,0
+21658,,(Crumpton),,baltimore_msa,0
+21666,,(Grasonville),,baltimore_msa,0
+21668,,(Ingleside),,baltimore_msa,0
+21723,,(Millington),,baltimore_msa,0
+21737,,(Queen Anne),,baltimore_msa,0
+21738,,(Queenstown),,baltimore_msa,0
+21757,,(Stevensville),,baltimore_msa,0
+21776,,(Sudlersville),,baltimore_msa,0
+21784,,(Cooksville),,baltimore_msa,0
+21787,,(Glenelg),,baltimore_msa,0
+21791,,(Glenwood),,baltimore_msa,0
+21794,,(Keymar),,baltimore_msa,0
+21797,,(New Windsor),,baltimore_msa,0
+92101,,(Sykesville),,baltimore_msa,0
+92108,,(Taneytown),,baltimore_msa,0
+92170,,(Union Bridge),,baltimore_msa,0
+92166,,(West Friendship),,baltimore_msa,0
+92171,,(Woodbine),,baltimore_msa,0
+18041,,(East Greenville),,phil_msa,0
+18054,,(Green Lane),,phil_msa,0
+18070,,(Palm),,phil_msa,0
+18073,,(Pennsburg),,phil_msa,0
+18074,,(Perkiomenville),,phil_msa,0
+18076,,(Red Hill),,phil_msa,0
+18077,,(Riegelsville),,phil_msa,0
+18081,,(Springtown),,phil_msa,0
+18901,,(Doylestown),,phil_msa,0
+18902,,(Doylestown),,phil_msa,0
+18912,,(Buckingham),,phil_msa,0
+18913,,(Carversville),,phil_msa,0
+18914,,(Chalfont),,phil_msa,0
+18915,,(Colmar),,phil_msa,0
+18917,,(Dublin),,phil_msa,0
+18920,,(Erwinna),,phil_msa,0
+18923,,(Fountainville),,phil_msa,0
+18925,,(Furlong),,phil_msa,0
+18929,,(Jamison),,phil_msa,0
+18930,,(Kintnersville),,phil_msa,0
+18932,,(Line Lexington),,phil_msa,0
+18935,,(Milford Square),,phil_msa,0
+18936,,(Montgomeryville),,phil_msa,0
+18938,,(New Hope),,phil_msa,0
+18940,,(Newtown),,phil_msa,0
+18942,,(Ottsville),,phil_msa,0
+18944,,(Perkasie),,phil_msa,0
+18947,,(Pipersville),,phil_msa,0
+18950,,(Point Pleasant),,phil_msa,0
+18951,,(Quakertown),,phil_msa,0
+18954,,(Richboro),,phil_msa,0
+18955,,(Richlandtown),,phil_msa,0
+18960,,(Sellersville),,phil_msa,0
+18962,,(Silverdale),,phil_msa,0
+18964,,(Souderton),,phil_msa,0
+18966,,(Southampton),,phil_msa,0
+18969,,(Telford),,phil_msa,0
+18970,,(Trumbauersville),,phil_msa,0
+18972,,(Upper Black Eddy),,phil_msa,0
+18974,,(Warminster),,phil_msa,0
+18976,,(Warrington),,phil_msa,0
+18977,,(Washington Crossing),,phil_msa,0
+18980,,(Wycombe),,phil_msa,0
+19001,,(Abington),,phil_msa,0
+19002,,(Ambler),,phil_msa,0
+19003,,(Ardmore),,phil_msa,0
+19004,,(Bala Cynwyd),,phil_msa,0
+19006,,(Huntingdon Valley),,phil_msa,0
+19007,,(Bristol),,phil_msa,0
+19008,,(Broomall),,phil_msa,0
+19009,,(Bryn Athyn),,phil_msa,0
+19010,,(Bryn Mawr),,phil_msa,0
+19012,,(Cheltenham),,phil_msa,0
+19013,,(Chester),,phil_msa,0
+19014,,(Aston),,phil_msa,0
+19015,,(Brookhaven),,phil_msa,0
+19017,,(Chester Heights),,phil_msa,0
+19018,,(Clifton Heights),,phil_msa,0
+19020,,(Bensalem),,phil_msa,0
+19021,,(Croydon),,phil_msa,0
+19022,,(Crum Lynne),,phil_msa,0
+19023,,(Darby),,phil_msa,0
+19025,,(Dresher),,phil_msa,0
+19026,,(Drexel Hill),,phil_msa,0
+19027,,(Elkins Park),,phil_msa,0
+19029,,(Essington),,phil_msa,0
+19030,,(Fairless Hills),,phil_msa,0
+19031,,(Flourtown),,phil_msa,0
+19032,,(Folcroft),,phil_msa,0
+19033,,(Folsom),,phil_msa,0
+19034,,(Fort Washington),,phil_msa,0
+19035,,(Gladwyne),,phil_msa,0
+19036,,(Glenolden),,phil_msa,0
+19038,,(Glenside),,phil_msa,0
+19040,,(Hatboro),,phil_msa,0
+19041,,(Haverford),,phil_msa,0
+19043,,(Holmes),,phil_msa,0
+19044,,(Horsham),,phil_msa,0
+19046,,(Jenkintown),,phil_msa,0
+19047,,(Langhorne),,phil_msa,0
+19050,,(Lansdowne),,phil_msa,0
+19053,,(Feasterville Trevose),,phil_msa,0
+19054,,(Levittown),,phil_msa,0
+19055,,(Levittown),,phil_msa,0
+19056,,(Levittown),,phil_msa,0
+19057,,(Levittown),,phil_msa,0
+19060,,(Garnet Valley),,phil_msa,0
+19061,,(Marcus Hook),,phil_msa,0
+19063,,(Media),,phil_msa,0
+19064,,(Springfield),,phil_msa,0
+19066,,(Merion Station),,phil_msa,0
+19067,,(Morrisville),,phil_msa,0
+19070,,(Morton),,phil_msa,0
+19072,,(Narberth),,phil_msa,0
+19073,,(Newtown Square),,phil_msa,0
+19074,,(Norwood),,phil_msa,0
+19075,,(Oreland),,phil_msa,0
+19076,,(Prospect Park),,phil_msa,0
+19078,,(Ridley Park),,phil_msa,0
+19079,,(Sharon Hill),,phil_msa,0
+19081,,(Swarthmore),,phil_msa,0
+19082,,(Upper Darby),,phil_msa,0
+19083,,(Havertown),,phil_msa,0
+19085,,(Villanova),,phil_msa,0
+19086,,(Wallingford),,phil_msa,0
+19087,,(Wayne),,phil_msa,0
+19090,,(Willow Grove),,phil_msa,0
+19094,,(Woodlyn),,phil_msa,0
+19095,,(Wyncote),,phil_msa,0
+19096,,(Wynnewood),,phil_msa,0
+19301,,(Paoli),,phil_msa,0
+19310,,(Atglen),,phil_msa,0
+19311,,(Avondale),,phil_msa,0
+19312,,(Berwyn),,phil_msa,0
+19316,,(Brandamore),,phil_msa,0
+19317,,(Chadds Ford),,phil_msa,0
+19319,,(Cheyney),,phil_msa,0
+19320,,(Coatesville),,phil_msa,0
+19330,,(Cochranville),,phil_msa,0
+19333,,(Devon),,phil_msa,0
+19335,,(Downingtown),,phil_msa,0
+19341,,(Exton),,phil_msa,0
+19342,,(Glen Mills),,phil_msa,0
+19343,,(Glenmoore),,phil_msa,0
+19344,,(Honey Brook),,phil_msa,0
+19345,,(Immaculata),,phil_msa,0
+19348,,(Kennett Square),,phil_msa,0
+19350,,(Landenberg),,phil_msa,0
+19352,,(Lincoln University),,phil_msa,0
+19355,,(Malvern),,phil_msa,0
+19358,,(Modena),,phil_msa,0
+19362,,(Nottingham),,phil_msa,0
+19363,,(Oxford),,phil_msa,0
+19365,,(Parkesburg),,phil_msa,0
+19367,,(Pomeroy),,phil_msa,0
+19372,,(Thorndale),,phil_msa,0
+19373,,(Thornton),,phil_msa,0
+19374,,(Toughkenamon),,phil_msa,0
+19375,,(Unionville),,phil_msa,0
+19380,,(West Chester),,phil_msa,0
+19382,,(West Chester),,phil_msa,0
+19383,,(West Chester),,phil_msa,0
+19390,,(West Grove),,phil_msa,0
+19401,,(Norristown),,phil_msa,0
+19403,,(Norristown),,phil_msa,0
+19405,,(Bridgeport),,phil_msa,0
+19406,,(King of Prussia),,phil_msa,0
+19422,,(Blue Bell),,phil_msa,0
+19425,,(Chester Springs),,phil_msa,0
+19426,,(Collegeville),,phil_msa,0
+19428,,(Conshohocken),,phil_msa,0
+19435,,(Frederick),,phil_msa,0
+19436,,(Gwynedd),,phil_msa,0
+19437,,(Gwynedd Valley),,phil_msa,0
+19438,,(Harleysville),,phil_msa,0
+19440,,(Hatfield),,phil_msa,0
+19442,,(Kimberton),,phil_msa,0
+19444,,(Lafayette Hill),,phil_msa,0
+19446,,(Lansdale),,phil_msa,0
+19453,,(Mont Clare),,phil_msa,0
+19454,,(North Wales),,phil_msa,0
+19456,,(Oaks),,phil_msa,0
+19457,,(Parker Ford),,phil_msa,0
+19460,,(Phoenixville),,phil_msa,0
+19462,,(Plymouth Meeting),,phil_msa,0
+19464,,(Pottstown),,phil_msa,0
+19465,,(Pottstown),,phil_msa,0
+19468,,(Royersford),,phil_msa,0
+19472,,(Sassamansville),,phil_msa,0
+19473,,(Schwenksville),,phil_msa,0
+19474,,(Skippack),,phil_msa,0
+19475,,(Spring City),,phil_msa,0
+19477,,(Spring House),,phil_msa,0
+19492,,(Zieglerville),,phil_msa,0
+19520,,(Zieglerville),,phil_msa,0
+19525,,(Zieglerville),,phil_msa,0
+97004,,(Beavercreek),,port_msa,0
+97005,,(Beaverton),,port_msa,0
+97006,,(Beaverton),,port_msa,0
+97007,,(Beaverton),,port_msa,0
+97008,,(Beaverton),,port_msa,0
+97009,,(Boring),,port_msa,0
+97011,,(Brightwood),,port_msa,0
+97013,,(Canby),,port_msa,0
+97015,,(Clackamas),,port_msa,0
+97016,,(Clatskanie),,port_msa,0
+97017,,(Colton),,port_msa,0
+97018,,(Columbia City),,port_msa,0
+97019,,(Corbett),,port_msa,0
+97022,,(Eagle Creek),,port_msa,0
+97023,,(Estacada),,port_msa,0
+97024,,(Fairview),,port_msa,0
+97027,,(Gladstone),,port_msa,0
+97028,,(Government Camp),,port_msa,0
+97030,,(Gresham),,port_msa,0
+97034,,(Lake Oswego),,port_msa,0
+97035,,(Lake Oswego),,port_msa,0
+97038,,(Molalla),,port_msa,0
+97042,,(Mulino),,port_msa,0
+97045,,(Oregon City),,port_msa,0
+97048,,(Rainier),,port_msa,0
+97049,,(Rhododendron),,port_msa,0
+97051,,(Saint Helens),,port_msa,0
+97053,,(Warren),,port_msa,0
+97054,,(Deer Island),,port_msa,0
+97055,,(Sandy),,port_msa,0
+97056,,(Scappoose),,port_msa,0
+97060,,(Troutdale),,port_msa,0
+97062,,(Tualatin),,port_msa,0
+97064,,(Vernonia),,port_msa,0
+97067,,(Welches),,port_msa,0
+97068,,(West Linn),,port_msa,0
+97070,,(Wilsonville),,port_msa,0
+97080,,(Gresham),,port_msa,0
+97086,,(Happy Valley),,port_msa,0
+97089,,(Damascus),,port_msa,0
+97101,,(Amity),,port_msa,0
+97106,,(Banks),,port_msa,0
+97109,,(Buxton),,port_msa,0
+97111,,(Carlton),,port_msa,0
+97113,,(Cornelius),,port_msa,0
+97114,,(Dayton),,port_msa,0
+97115,,(Dundee),,port_msa,0
+97116,,(Forest Grove),,port_msa,0
+97117,,(Gales Creek),,port_msa,0
+97119,,(Gaston),,port_msa,0
+97123,,(Hillsboro),,port_msa,0
+97124,,(Hillsboro),,port_msa,0
+97125,,(Manning),,port_msa,0
+97127,,(Lafayette),,port_msa,0
+97128,,(McMinnville),,port_msa,0
+97132,,(Newberg),,port_msa,0
+97133,,(North Plains),,port_msa,0
+97140,,(Sherwood),,port_msa,0
+97144,,(Timber),,port_msa,0
+97148,,(Yamhill),,port_msa,0
+97378,,(Sheridan),,port_msa,0
+97396,,(Willamina),,port_msa,0
+98003,,(Auburn),,seattle_msa,0
+98004,,(Auburn),,seattle_msa,0
+98005,,(Federal Way),,seattle_msa,0
+98006,,(Bellevue),,seattle_msa,0
+98007,,(Bellevue),,seattle_msa,0
+98008,,(Bellevue),,seattle_msa,0
+98010,,(Bellevue),,seattle_msa,0
+98011,,(Bellevue),,seattle_msa,0
+98012,,(Black Diamond),,seattle_msa,0
+98014,,(Bothell),,seattle_msa,0
+98019,,(Bothell),,seattle_msa,0
+98020,,(Carnation),,seattle_msa,0
+98021,,(Duvall),,seattle_msa,0
+98022,,(Edmonds),,seattle_msa,0
+98023,,(Bothell),,seattle_msa,0
+98024,,(Enumclaw),,seattle_msa,0
+98026,,(Federal Way),,seattle_msa,0
+98027,,(Fall City),,seattle_msa,0
+98028,,(Edmonds),,seattle_msa,0
+98029,,(Issaquah),,seattle_msa,0
+98030,,(Kenmore),,seattle_msa,0
+98031,,(Issaquah),,seattle_msa,0
+98032,,(Kent),,seattle_msa,0
+98033,,(Kent),,seattle_msa,0
+98034,,(Kent),,seattle_msa,0
+98036,,(Kirkland),,seattle_msa,0
+98037,,(Kirkland),,seattle_msa,0
+98038,,(Lynnwood),,seattle_msa,0
+98039,,(Lynnwood),,seattle_msa,0
+98040,,(Maple Valley),,seattle_msa,0
+98042,,(Medina),,seattle_msa,0
+98043,,(Mercer Island),,seattle_msa,0
+98045,,(Kent),,seattle_msa,0
+98047,,(Mountlake Terrace),,seattle_msa,0
+98050,,(North Bend),,seattle_msa,0
+98051,,(Pacific),,seattle_msa,0
+98052,,(Preston),,seattle_msa,0
+98053,,(Ravensdale),,seattle_msa,0
+98055,,(Redmond),,seattle_msa,0
+98056,,(Redmond),,seattle_msa,0
+98057,,(Renton),,seattle_msa,0
+98058,,(Renton),,seattle_msa,0
+98059,,(Renton),,seattle_msa,0
+98065,,(Renton),,seattle_msa,0
+98068,,(Renton),,seattle_msa,0
+98070,,(Snoqualmie),,seattle_msa,0
+98072,,(Snoqualmie Pass),,seattle_msa,0
+98074,,(Vashon),,seattle_msa,0
+98075,,(Woodinville),,seattle_msa,0
+98077,,(Sammamish),,seattle_msa,0
+98087,,(Sammamish),,seattle_msa,0
+98092,,(Woodinville),,seattle_msa,0
+98201,,(Lynnwood),,seattle_msa,0
+98203,,(Auburn),,seattle_msa,0
+98204,,(Seattle),,seattle_msa,0
+98205,,(Everett),,seattle_msa,0
+98207,,(Everett),,seattle_msa,0
+98208,,(Everett),,seattle_msa,0
+98223,,(Everett),,seattle_msa,0
+98224,,(Everett),,seattle_msa,0
+98241,,(Everett),,seattle_msa,0
+98251,,(Arlington),,seattle_msa,0
+98252,,(Baring),,seattle_msa,0
+98256,,(Darrington),,seattle_msa,0
+98258,,(Gold Bar),,seattle_msa,0
+98270,,(Granite Falls),,seattle_msa,0
+98271,,(Index),,seattle_msa,0
+98272,,(Lake Stevens),,seattle_msa,0
+98275,,(Marysville),,seattle_msa,0
+98288,,(Marysville),,seattle_msa,0
+98290,,(Monroe),,seattle_msa,0
+98292,,(Mukilteo),,seattle_msa,0
+98294,,(Skykomish),,seattle_msa,0
+98296,,(Snohomish),,seattle_msa,0
+98303,,(Stanwood),,seattle_msa,0
+98304,,(Sultan),,seattle_msa,0
+98321,,(Snohomish),,seattle_msa,0
+98323,,(Anderson Island),,seattle_msa,0
+98327,,(Ashford),,seattle_msa,0
+98328,,(Buckley),,seattle_msa,0
+98329,,(Carbonado),,seattle_msa,0
+98330,,(Dupont),,seattle_msa,0
+98332,,(Eatonville),,seattle_msa,0
+98333,,(Gig Harbor),,seattle_msa,0
+98335,,(Elbe),,seattle_msa,0
+98338,,(Gig Harbor),,seattle_msa,0
+98349,,(Fox Island),,seattle_msa,0
+98351,,(Gig Harbor),,seattle_msa,0
+98354,,(Graham),,seattle_msa,0
+98360,,(Lakebay),,seattle_msa,0
+98371,,(Longbranch),,seattle_msa,0
+98372,,(Milton),,seattle_msa,0
+98373,,(Orting),,seattle_msa,0
+98374,,(Puyallup),,seattle_msa,0
+98375,,(Puyallup),,seattle_msa,0
+98385,,(Puyallup),,seattle_msa,0
+98387,,(Puyallup),,seattle_msa,0
+98388,,(Puyallup),,seattle_msa,0
+98390,,(South Prairie),,seattle_msa,0
+98391,,(Spanaway),,seattle_msa,0
+98394,,(Steilacoom),,seattle_msa,0
+98396,,(Sumner),,seattle_msa,0
+98402,,(Bonney Lake),,seattle_msa,0
+98403,,(Vaughn),,seattle_msa,0
+98404,,(Wilkeson),,seattle_msa,0
+98405,,(Tacoma),,seattle_msa,0
+98406,,(Tacoma),,seattle_msa,0
+98407,,(Tacoma),,seattle_msa,0
+98408,,(Tacoma),,seattle_msa,0
+98409,,(Tacoma),,seattle_msa,0
+98416,,(Tacoma),,seattle_msa,0
+98418,,(Tacoma),,seattle_msa,0
+98421,,(Tacoma),,seattle_msa,0
+98422,,(Tacoma),,seattle_msa,0
+98424,,(Tacoma),,seattle_msa,0
+98430,,(Tacoma),,seattle_msa,0
+98433,,(Tacoma),,seattle_msa,0
+98438,,(Tacoma),,seattle_msa,0
+98439,,(Camp Murray),,seattle_msa,0
+98443,,(Tacoma),,seattle_msa,0
+98444,,(McChord AFB),,seattle_msa,0
+98445,,(Lakewood),,seattle_msa,0
+98446,,(Tacoma),,seattle_msa,0
+98447,,(Tacoma),,seattle_msa,0
+98465,,(Tacoma),,seattle_msa,0
+98466,,(Tacoma),,seattle_msa,0
+98467,,(Tacoma),,seattle_msa,0
+98498,,(Tacoma),,seattle_msa,0
+98499,,(Tacoma),,seattle_msa,0
+98558,,(University Place),,seattle_msa,0
+98580,,(Lakewood),,seattle_msa,0
+21201,,(Lakewood),,seattle_msa,0
+21202,,(Mckenna),,seattle_msa,0
+21240,,(Roy),,seattle_msa,0
+63005,,,St. Louis MSA,,
+63010,,,St. Louis MSA,,
+63011,,,St. Louis MSA,,
+63012,,,St. Louis MSA,,
+63013,,,St. Louis MSA,,
+63014,,,St. Louis MSA,,
+63015,,,St. Louis MSA,,
+63016,,,St. Louis MSA,,
+63017,,,St. Louis MSA,,
+63019,,,St. Louis MSA,,
+63020,,,St. Louis MSA,,
+63021,,,St. Louis MSA,,
+63023,,,St. Louis MSA,,
+63025,,,St. Louis MSA,,
+63026,,,St. Louis MSA,,
+63028,,,St. Louis MSA,,
+63030,,,St. Louis MSA,,
+63031,,,St. Louis MSA,,
+63033,,,St. Louis MSA,,
+63034,,,St. Louis MSA,,
+63037,,,St. Louis MSA,,
+63038,,,St. Louis MSA,,
+63039,,,St. Louis MSA,,
+63040,,,St. Louis MSA,,
+63041,,,St. Louis MSA,,
+63042,,,St. Louis MSA,,
+63043,,,St. Louis MSA,,
+63044,,,St. Louis MSA,,
+63045,,,St. Louis MSA,,
+63047,,,St. Louis MSA,,
+63048,,,St. Louis MSA,,
+63049,,,St. Louis MSA,,
+63050,,,St. Louis MSA,,
+63051,,,St. Louis MSA,,
+63052,,,St. Louis MSA,,
+63053,,,St. Louis MSA,,
+63055,,,St. Louis MSA,,
+63056,,,St. Louis MSA,,
+63057,,,St. Louis MSA,,
+63060,,,St. Louis MSA,,
+63061,,,St. Louis MSA,,
+63068,,,St. Louis MSA,,
+63069,,,St. Louis MSA,,
+63070,,,St. Louis MSA,,
+63072,,,St. Louis MSA,,
+63073,,,St. Louis MSA,,
+63074,,,St. Louis MSA,,
+63077,,,St. Louis MSA,,
+63079,,,St. Louis MSA,,
+63080,,,St. Louis MSA,,
+63084,,,St. Louis MSA,,
+63088,,,St. Louis MSA,,
+63089,,,St. Louis MSA,,
+63090,,,St. Louis MSA,,
+63101,,,St. Louis MSA,,
+63102,,,St. Louis MSA,,
+63103,,,St. Louis MSA,,
+63104,,,St. Louis MSA,,
+63105,,,St. Louis MSA,,
+63106,,,St. Louis MSA,,
+63107,,,St. Louis MSA,,
+63108,,,St. Louis MSA,,
+63109,,,St. Louis MSA,,
+63110,,,St. Louis MSA,,
+63111,,,St. Louis MSA,,
+63112,,,St. Louis MSA,,
+63113,,,St. Louis MSA,,
+63114,,,St. Louis MSA,,
+63115,,,St. Louis MSA,,
+63116,,,St. Louis MSA,,
+63117,,,St. Louis MSA,,
+63118,,,St. Louis MSA,,
+63119,,,St. Louis MSA,,
+63120,,,St. Louis MSA,,
+63121,,,St. Louis MSA,,
+63122,,,St. Louis MSA,,
+63123,,,St. Louis MSA,,
+63124,,,St. Louis MSA,,
+63125,,,St. Louis MSA,,
+63126,,,St. Louis MSA,,
+63127,,,St. Louis MSA,,
+63128,,,St. Louis MSA,,
+63129,,,St. Louis MSA,,
+63130,,,St. Louis MSA,,
+63131,,,St. Louis MSA,,
+63132,,,St. Louis MSA,,
+63133,,,St. Louis MSA,,
+63134,,,St. Louis MSA,,
+63135,,,St. Louis MSA,,
+63136,,,St. Louis MSA,,
+63137,,,St. Louis MSA,,
+63138,,,St. Louis MSA,,
+63139,,,St. Louis MSA,,
+63140,,,St. Louis MSA,,
+63141,,,St. Louis MSA,,
+63143,,,St. Louis MSA,,
+63144,,,St. Louis MSA,,
+63146,,,St. Louis MSA,,
+63147,,,St. Louis MSA,,
+63155,,,St. Louis MSA,,
+63301,,,St. Louis MSA,,
+63303,,,St. Louis MSA,,
+63304,,,St. Louis MSA,,
+63332,,,St. Louis MSA,,
+63341,,,St. Louis MSA,,
+63343,,,St. Louis MSA,,
+63347,,,St. Louis MSA,,
+63348,,,St. Louis MSA,,
+63349,,,St. Louis MSA,,
+63357,,,St. Louis MSA,,
+63362,,,St. Louis MSA,,
+63366,,,St. Louis MSA,,
+63367,,,St. Louis MSA,,
+63368,,,St. Louis MSA,,
+63369,,,St. Louis MSA,,
+63370,,,St. Louis MSA,,
+63373,,,St. Louis MSA,,
+63376,,,St. Louis MSA,,
+63377,,,St. Louis MSA,,
+63379,,,St. Louis MSA,,
+63381,,,St. Louis MSA,,
+63383,,,St. Louis MSA,,
+63385,,,St. Louis MSA,,
+63386,,,St. Louis MSA,,
+63387,,,St. Louis MSA,,
+63389,,,St. Louis MSA,,
+63390,,,St. Louis MSA,,
+8611,,"Trenton, NJ",Mercer,609,
+8644,,"Trenton, NJ",Mercer,609,
+8609,,"Trenton, NJ",Mercer,609,
+8608,,"Trenton, NJ",Mercer,609,
+8650,,"Trenton, NJ",Mercer,609,
+8610,,"Trenton, NJ",Mercer,609,
+8666,,"Trenton, NJ",Mercer,609,
+8619,,"Trenton, NJ",Mercer,609,
+8620,,"Trenton, NJ",Mercer,609,
+8648,,"Trenton, NJ",Mercer,609,
+8638,,"Trenton, NJ",Mercer,609,
+8618,,"Trenton, NJ",Mercer,609,
+8625,,"Trenton, NJ",Mercer,609,
+8601,,"Trenton, NJ",Mercer,609,
+8645,,"Trenton, NJ",Mercer,609,
+8647,,"Trenton, NJ",Mercer,609,
+8603,,"Trenton, NJ",Mercer,609,
+8628,,"Trenton, NJ",Mercer,609,
+8629,,"Trenton, NJ",Mercer,609,
+8691,,"Trenton, NJ",Mercer,609,
+8602,,"Trenton, NJ",Mercer,609,
+8646,,"Trenton, NJ",Mercer,609,
+8604,,"Trenton, NJ",Mercer,609,
+8606,,"Trenton, NJ",Mercer,609,
+8605,,"Trenton, NJ",Mercer,609,
+8607,,"Trenton, NJ",Mercer,609,
+8690,,"Trenton, NJ",Mercer,609,
+8695,,"Trenton, NJ",Mercer,609,
+19890,,"Wilmington, DE",New Castle,302,
+19894,,"Wilmington, DE",New Castle,302,
+19850,,"Wilmington, DE",New Castle,302,
+19804,,"Wilmington, DE",New Castle,302,
+19898,,"Wilmington, DE",New Castle,302,
+19899,,"Wilmington, DE",New Castle,302,
+19808,,"Wilmington, DE",New Castle,302,
+19884,,"Wilmington, DE",New Castle,302,
+19801,,"Wilmington, DE",New Castle,302,
+19895,,"Wilmington, DE",New Castle,302,
+19893,,"Wilmington, DE",New Castle,302,
+19802,,"Wilmington, DE",New Castle,302,
+19892,,"Wilmington, DE",New Castle,302,
+19880,,"Wilmington, DE",New Castle,302,
+19806,,"Wilmington, DE",New Castle,302,
+19803,,"Wilmington, DE",New Castle,302,
+19810,,"Wilmington, DE",New Castle,302,
+19896,,"Wilmington, DE",New Castle,302,
+19807,,"Wilmington, DE",New Castle,302,
+19891,,"Wilmington, DE",New Castle,302,
+19805,,"Wilmington, DE",New Castle,302,
+19897,,"Wilmington, DE",New Castle,302,
+19886,,"Wilmington, DE",New Castle,302,
+19809,,"Wilmington, DE",New Castle,302,
+19885,,"Wilmington, DE",New Castle,302,
+97217,,"Portland, OR",Multnomah,port,1
+97223,,"Portland, OR",Washington,port,1
+97224,,"Portland, OR",Washington,port,1
+97218,,"Portland, OR",Multnomah,port,1
+97221,,"Portland, OR",Multnomah,port,1
+97228,,"Portland, OR",Multnomah,port,1
+97219,,"Portland, OR",Multnomah,port,1
+97220,,"Portland, OR",Multnomah,port,1
+97225,,"Portland, OR",Washington,port,1
+97227,,"Portland, OR",Multnomah,port,1
+97222,,"Portland, OR",Clackamas,port,1
+97206,,"Portland, OR",Multnomah,port,1
+97207,,"Portland, OR",Multnomah,port,1
+97208,,"Portland, OR",Multnomah,port,1
+97205,,"Portland, OR",Multnomah,port,1
+97202,,"Portland, OR",Multnomah,port,1
+97203,,"Portland, OR",Multnomah,port,1
+97204,,"Portland, OR",Multnomah,port,1
+97209,,"Portland, OR",Multnomah,port,1
+97214,,"Portland, OR",Multnomah,port,1
+97215,,"Portland, OR",Multnomah,port,1
+97216,,"Portland, OR",Multnomah,port,1
+97213,,"Portland, OR",Multnomah,port,1
+97210,,"Portland, OR",Multnomah,port,1
+97211,,"Portland, OR",Multnomah,port,1
+97212,,"Portland, OR",Multnomah,port,1
+97281,,"Portland, OR",Washington,port,1
+97280,,"Portland, OR",Multnomah,port,1
+97283,,"Portland, OR",Multnomah,port,1
+97282,,"Portland, OR",Multnomah,port,1
+97267,,"Portland, OR",Clackamas,port,1
+97266,,"Portland, OR",Multnomah,port,1
+97269,,"Portland, OR",Clackamas,port,1
+97268,,"Portland, OR",Clackamas,port,1
+97294,,"Portland, OR",Multnomah,port,1
+97293,,"Portland, OR",Multnomah,port,1
+97298,,"Portland, OR",Washington,port,1
+97296,,"Portland, OR",Multnomah,port,1
+97290,,"Portland, OR",Multnomah,port,1
+97286,,"Portland, OR",Multnomah,port,1
+97292,,"Portland, OR",Multnomah,port,1
+97291,,"Portland, OR",Washington,port,1
+97258,,"Portland, OR",Multnomah,port,1
+97236,,"Portland, OR",Multnomah,port,1
+97233,,"Portland, OR",Multnomah,port,1
+97239,,"Portland, OR",Multnomah,port,1
+97238,,"Portland, OR",Multnomah,port,1
+97230,,"Portland, OR",Multnomah,port,1
+97229,,"Portland, OR",Washington,port,1
+97232,,"Portland, OR",Multnomah,port,1
+97231,,"Portland, OR",Multnomah,port,1
+97253,,"Portland, OR",Multnomah,port,1
+97252,,"Portland, OR",Multnomah,port,1
+97256,,"Portland, OR",Multnomah,port,1
+97254,,"Portland, OR",Multnomah,port,1
+97242,,"Portland, OR",Multnomah,port,1
+97240,,"Portland, OR",Multnomah,port,1
+97251,,"Portland, OR",Multnomah,port,1
+97250,,"Portland, OR",Multnomah,port,1
+97201,,"Portland, OR",Multnomah,port,1
+98207,,(Everett),,seattle_msa,0
+98208,,(Everett),,seattle_msa,0
+98223,,(Everett),,seattle_msa,0
+98224,,(Everett),,seattle_msa,0
+98241,,(Everett),,seattle_msa,0
+98251,,(Arlington),,seattle_msa,0
+98252,,(Baring),,seattle_msa,0
+98256,,(Darrington),,seattle_msa,0
+98258,,(Gold Bar),,seattle_msa,0
+98270,,(Granite Falls),,seattle_msa,0
+98271,,(Index),,seattle_msa,0
+98272,,(Lake Stevens),,seattle_msa,0
+98275,,(Marysville),,seattle_msa,0
+98288,,(Marysville),,seattle_msa,0
+98290,,(Monroe),,seattle_msa,0
+98292,,(Mukilteo),,seattle_msa,0
+98294,,(Skykomish),,seattle_msa,0
+98296,,(Snohomish),,seattle_msa,0
+98303,,(Stanwood),,seattle_msa,0
+98304,,(Sultan),,seattle_msa,0
+98321,,(Snohomish),,seattle_msa,0
+98323,,(Anderson Island),,seattle_msa,0
+98327,,(Ashford),,seattle_msa,0
+98328,,(Buckley),,seattle_msa,0
+98329,,(Carbonado),,seattle_msa,0
+98330,,(Dupont),,seattle_msa,0
+98332,,(Eatonville),,seattle_msa,0
+98333,,(Gig Harbor),,seattle_msa,0
+98335,,(Elbe),,seattle_msa,0
+98338,,(Gig Harbor),,seattle_msa,0
+98349,,(Fox Island),,seattle_msa,0
+98351,,(Gig Harbor),,seattle_msa,0
+98354,,(Graham),,seattle_msa,0
+98360,,(Lakebay),,seattle_msa,0
+98371,,(Longbranch),,seattle_msa,0
+98372,,(Milton),,seattle_msa,0
+98373,,(Orting),,seattle_msa,0
+98374,,(Puyallup),,seattle_msa,0
+98375,,(Puyallup),,seattle_msa,0
+98385,,(Puyallup),,seattle_msa,0
+98387,,(Puyallup),,seattle_msa,0
+98388,,(Puyallup),,seattle_msa,0
+98390,,(South Prairie),,seattle_msa,0
+98391,,(Spanaway),,seattle_msa,0
+98394,,(Steilacoom),,seattle_msa,0
+98396,,(Sumner),,seattle_msa,0
+98402,,(Bonney Lake),,seattle_msa,0
+98403,,(Vaughn),,seattle_msa,0
+98404,,(Wilkeson),,seattle_msa,0
+98405,,(Tacoma),,seattle_msa,0
+98406,,(Tacoma),,seattle_msa,0
+98407,,(Tacoma),,seattle_msa,0
+98408,,(Tacoma),,seattle_msa,0
+98409,,(Tacoma),,seattle_msa,0
+98416,,(Tacoma),,seattle_msa,0
+98418,,(Tacoma),,seattle_msa,0
+98421,,(Tacoma),,seattle_msa,0
+98422,,(Tacoma),,seattle_msa,0
+98424,,(Tacoma),,seattle_msa,0
+98430,,(Tacoma),,seattle_msa,0
+98433,,(Tacoma),,seattle_msa,0
+98438,,(Tacoma),,seattle_msa,0
+98439,,(Camp Murray),,seattle_msa,0
+98443,,(Tacoma),,seattle_msa,0
+98444,,(McChord AFB),,seattle_msa,0
+98445,,(Lakewood),,seattle_msa,0
+98446,,(Tacoma),,seattle_msa,0
+98447,,(Tacoma),,seattle_msa,0
+98465,,(Tacoma),,seattle_msa,0
+98466,,(Tacoma),,seattle_msa,0
+98467,,(Tacoma),,seattle_msa,0
+98498,,(Tacoma),,seattle_msa,0
+98499,,(Tacoma),,seattle_msa,0
+98558,,(University Place),,seattle_msa,0
+98580,,(Lakewood),,seattle_msa,0
+21201,,(Lakewood),,seattle_msa,0
+21202,,(Mckenna),,seattle_msa,0
+21240,,(Roy),,seattle_msa,0
+92101,,"San Diego , CA",San Diego,sd,1
+92108,,"San Diego , CA",San Diego,sd,1
+92170,,"San Diego, CA",San Diego,sd,1
+92166,,"San Diego, CA",San Diego,sd,1
+92171,,"San Diego, CA",San Diego,sd,1
+92168,,"San Diego, CA",San Diego,sd,1
+92187,,"San Diego, CA",San Diego,sd,1
+92135,,"San Diego, CA",San Diego,sd,1
+92169,,"San Diego, CA",San Diego,sd,1
+92123,,"San Diego, CA",San Diego,sd,1
+92195,,"San Diego, CA",San Diego,sd,1
+92165,,"San Diego, CA",San Diego,sd,1
+92136,,"San Diego, CA",San Diego,sd,1
+92191,,"San Diego, CA",San Diego,sd,1
+92163,,"San Diego, CA",San Diego,sd,1
+92116,,"San Diego, CA",San Diego,sd,1
+92114,,"San Diego, CA",San Diego,sd,1
+92177,,"San Diego, CA",San Diego,sd,1
+92186,,"San Diego, CA",San Diego,sd,1
+92122,,"San Diego, CA",San Diego,sd,1
+92131,,"San Diego, CA",San Diego,sd,1
+92147,,"San Diego, CA",San Diego,sd,1
+92130,,"San Diego, CA",San Diego,sd,1
+92145,,"San Diego, CA",San Diego,sd,1
+92119,,"San Diego, CA",San Diego,sd,1
+92121,,"San Diego, CA",San Diego,sd,1
+92120,,"San Diego, CA",San Diego,sd,1
+92196,,"San Diego, CA",San Diego,sd,1
+92190,,"San Diego, CA",San Diego,sd,1
+92167,,"San Diego, CA",San Diego,sd,1
+92134,,"San Diego, CA",San Diego,sd,1
+92132,,"San Diego, CA",San Diego,sd,1
+92115,,"San Diego, CA",San Diego,sd,1
+92172,,"San Diego, CA",San Diego,sd,1
+92179,,"San Diego, CA",San Diego,sd,1
+92182,,"San Diego, CA",San Diego,sd,1
+92124,,"San Diego, CA",San Diego,sd,1
+92105,,"San Diego, CA",San Diego,sd,1
+92139,,"San Diego, CA",San Diego,sd,1
+92154,,"San Diego, CA",San Diego,sd,1
+92175,,"San Diego, CA",San Diego,sd,1
+92199,,"San Diego, CA",San Diego,sd,1
+92140,,"San Diego, CA",San Diego,sd,1
+92155,,"San Diego, CA",San Diego,sd,1
+92107,,"San Diego, CA",San Diego,sd,1
+92142,,"San Diego, CA",San Diego,sd,1
+92106,,"San Diego, CA",San Diego,sd,1
+92102,,"San Diego, CA",San Diego,sd,1
+92103,,"San Diego, CA",San Diego,sd,1
+92197,,"San Diego, CA",San Diego,sd,1
+92174,,"San Diego, CA",San Diego,sd,1
+92198,,"San Diego, CA",San Diego,sd,1
+92104,,"San Diego, CA",San Diego,sd,1
+92153,,"San Diego, CA",San Diego,sd,1
+92150,,"San Diego, CA",San Diego,sd,1
+92138,,"San Diego, CA",San Diego,sd,1
+92152,,"San Diego, CA",San Diego,sd,1
+92137,,"San Diego, CA",San Diego,sd,1
+92109,,"San Diego, CA",San Diego,sd,1
+92128,,"San Diego, CA",San Diego,sd,1
+92193,,"San Diego, CA",San Diego,sd,1
+92113,,"San Diego, CA",San Diego,sd,1
+92129,,"San Diego, CA",San Diego,sd,1
+92127,,"San Diego, CA",San Diego,sd,1
+92126,,"San Diego, CA",San Diego,sd,1
+92161,,"San Diego, CA",San Diego,sd,1
+92117,,"San Diego, CA",San Diego,sd,1
+92176,,"San Diego, CA",San Diego,sd,1
+92160,,"San Diego, CA",San Diego,sd,1
+92158,,"San Diego, CA",San Diego,sd,1
+92159,,"San Diego, CA",San Diego,sd,1
+92110,,"San Diego, CA",San Diego,sd,1
+92192,,"San Diego, CA",San Diego,sd,1
+92112,,"San Diego, CA",San Diego,sd,1
+92149,,"San Diego, CA",San Diego,sd,1
+92111,,"San Diego, CA",San Diego,sd,1

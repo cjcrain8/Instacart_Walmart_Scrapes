@@ -100,7 +100,7 @@ def get_to_search_page():
 	
 	WebDriverWait(driver, delay).until(
 				EC.presence_of_element_located(
-				(By.CLASS_NAME, "anon-bkg")
+				(By.CLASS_NAME, "js-content")
 				))
 	
 	return driver
@@ -109,20 +109,30 @@ def change_zip(zip, driver):
 
 	WebDriverWait(driver, delay).until(
 			EC.presence_of_element_located(
-			(By.ID, "verifyAddress-button")
+			(By.ID, 'postalCode')
 			))
 			
-	zip_search = driver.find_element_by_name('zip')
+	zip_search = driver.find_element_by_id('postalCode')
 	zip_search.send_keys(zip)
 	
 	try:
-		enter = driver.find_element_by_id('verifyAddress-button')
+		enter = driver.find_element_by_xpath('.//button[contains(text(), "Check Availability")]')
 		enter.click()
 	except:
 		time.sleep(3)
-		enter = driver.find_element_by_id('verifyAddress-button')
+		enter = driver.find_element_by_xpath('.//button[contains(text(), "Check Availability")]')
 		enter.click()
 	
+	try:
+		WebDriverWait(driver, 10).until(
+					EC.presence_of_element_located(
+					(By.XPATH, './/*[contains(text(), "Start Shopping")]')
+					))
+		driver.find_element_by_xpath('.//*[contains(text(), "Start Shopping")]').click()
+		print("clicked out")
+	except:
+		print("good to go")
+		
 	try:	
 		WebDriverWait(driver, 10).until(
 					EC.presence_of_element_located(
@@ -132,27 +142,7 @@ def change_zip(zip, driver):
 		return True
 		
 	except:	
-		try:
-			time.sleep(3)
-			WebDriverWait(driver, delay).until(
-						EC.presence_of_element_located(
-						(By.CLASS_NAME, 'button-pair')
-						))
-		except:
-			time.sleep(3)
-			WebDriverWait(driver, delay).until(
-						EC.presence_of_element_located(
-						(By.CLASS_NAME, 'button-pair')
-						))
-			
-		start_shopping = driver.find_element_by_xpath('//a[@class="button '
-						'button--primary"]')
-		start_shopping.click()
 		
-		WebDriverWait(driver, delay).until(
-					EC.presence_of_element_located(
-					(By.ID, 'main')
-					))
 				
 		return False
 
@@ -160,7 +150,7 @@ def change_zip(zip, driver):
 				
 def search_for_cat(category, driver):
 	
-	search_box = driver.find_element_by_id('searchInput')
+	search_box = driver.find_element_by_xpath('.//*[@placeholder="Search"]')
 		
 	## delete last entry
 	for x in range(0,30):
@@ -173,7 +163,7 @@ def search_for_cat(category, driver):
 
 	WebDriverWait(driver, delay).until(
 			EC.presence_of_element_located(
-			(By.CLASS_NAME, "filter-heading")
+			(By.CLASS_NAME, "js-content")
 			))
 	
 def prep_file(zip, category, id, wal):
@@ -191,7 +181,7 @@ def get_data(file, driver, category):
 	
 	WebDriverWait(driver, delay).until(
 		EC.presence_of_element_located(
-		(By.CLASS_NAME, "item__media")
+		(By.XPATH, './/div[@data-automation-id="productTile"]')
 		))
 		
 	## get and save all text			
@@ -232,30 +222,25 @@ def get_data(file, driver, category):
 	while more == True:
 		## arrow through all pages
 		try:
-			next = driver.find_element_by_xpath('//li[@class="next ng-scope"]'
-						'//a[@href]')
+			next = driver.find_element_by_xpath('.//a[contains(text(), "Next")]')
 			next.click()
 		except:
-			try:
-				time.sleep(2)
 
-				WebDriverWait(driver, delay).until(
-					EC.presence_of_element_located(
-					(By.CLASS_NAME, "item__media")
-					))
-					
-				next = driver.find_element_by_xpath('//li[@class="next ng-scope"]'
-						'//a[@href]')
-				next.click()
-			except:
-				more = False
-				continue
+			time.sleep(2)
+
+			WebDriverWait(driver, delay).until(
+				EC.presence_of_element_located(
+				(By.XPATH, './/div[@data-automation-id="productTile"]')
+				))
 				
+			next = driver.find_element_by_xpath('.//span[contains(text(), "Next")]/parent::*')
+			next.click()
+
 		
 		time.sleep(1.5)
 		WebDriverWait(driver, delay).until(
 				EC.presence_of_element_located(
-				(By.CLASS_NAME, "item__media")
+				(By.XPATH, './/div[@data-automation-id="productTile"]')
 				))
 		text = driver.find_element_by_xpath('html[@class]').text
 		
@@ -372,7 +357,15 @@ def main(scrape_name):
 					
 					time.sleep(2)
 					
+					try: 
+						driver.find_element_by_xpath('.//h2[contains(text(), "Join the waitlist")]')
+						print("no service here")
+						continue
+					except:
+						x=0
+					
 					## search for category
+					
 					search_for_cat(category, driver)			
 					
 					file = prep_file(zip, category, id, wal)
@@ -396,7 +389,7 @@ def main(scrape_name):
 		
 		
 		print("Woot woot! All done!")
-		
+	
 	except:
 		sys.exit()
 	
